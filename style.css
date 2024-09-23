@@ -6,12 +6,12 @@
 }
 
 #dino {
-    width: 50px;
-    height: 50px;
-    background: url(img/dino.png);
-    background-size: 50px 50px;
+    width: 80px;
+    height: 80px;
+    background: url(img/dino.gif);
+    background-size: 80px 80px;
     position: relative;
-    top: 150px;
+    top: 140px;
 }
 
 #cactus {
@@ -20,9 +20,9 @@
     background: url(img/cactus.png);
     background-size: 20px 40px;
     position: relative;
-    top: 110px;
+    top: 85px;
     left: 580px;
-    animation: cactusMov 2s infinite linear;
+    animation: cactusMov 1.5s infinite linear;
 }
 
 @keyframes cactusMov {
